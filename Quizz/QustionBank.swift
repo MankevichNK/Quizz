@@ -23,7 +23,18 @@ class QustionBank{
         list.append(QustionCosmos(questionText: "Сколько на Уране длится одна ночь?", choiceA: "а) 12 часов", choiceB: "б) 21 год", choiceC: "в) 1 год", choiceG: "г) 1 час", answer: 2))
         list.append(QustionCosmos(questionText: "Какое первое млекопитающее, побывавшее в космосе?", choiceA: "а) Крыса", choiceB: "б) Кошка", choiceC: "в) Собака", choiceG: "г) Черепаха", answer: 3))
         list.append(QustionCosmos(questionText: "Сколько длятся одни Земные сутки на Венере?", choiceA: "а) 245 дней", choiceB: "б) 1 час", choiceC: "в) 30 дней", choiceG: "г) 24 часа", answer: 1))
-         list1.append(QuestionBook(questionText: "Как зовут?", choiceA: "а) 245 дней", choiceB: "б) 1 час", choiceC: "в) 30 дней", choiceG: "г) 24 часа", answer: 1))
+        //BOOK
+        list1.append(QuestionBook(questionText: "Кто из перечисленных не является персонажем в книге о Шерлоке Холмсе?", choiceA: "а) Доктор Джон Ватсон", choiceB: "б) Миссис Хадсон", choiceC: "в) Г-н Уолкер", choiceG: "г) Джеймс Мориарти", answer: 3))
+        list1.append(QuestionBook(questionText: "Кто автор изречия: \"Если твоего ухода никто не заметил, значит ты ушёл не зря\"?", choiceA: "а) Анна Ахматова", choiceB: "б) Иосиф Бродский", choiceC: "в) Антон Чехов", choiceG: "г) Лев Толстой", answer: 4))
+        list1.append(QuestionBook(questionText: "Кто это написал: \"В одном часе любви - целая жизнь\"?", choiceA: "а) Грибоедов", choiceB: "б) Лермонтов", choiceC: "в) Мопассан", choiceG: "г) Бальзак", answer: 4))
+        list1.append(QuestionBook(questionText: "Автор книги \"Рита Хейуорт и спасение Шоушенка\"?", choiceA: "а) Стивен Кинг", choiceB: "б) Ричард Мэтинсон", choiceC: "в) Роберт Блох", choiceG: "г) Дин Кунц", answer: 1))
+        list1.append(QuestionBook(questionText: "Какая настоящая фамилия Максима Горького?", choiceA: "а) Лужин", choiceB: "б) Иванов", choiceC: "в) Пешков", choiceG: "г) Алексеев", answer: 3))
+        list1.append(QuestionBook(questionText: "В каком произведении слышится предупреждение о том, что нарушение естественного хода вещей приводит к необратимым последствиям?", choiceA: "а) Роковые яйца", choiceB: "б) Собачье сердце", choiceC: "в) Мастер и Маргарита", choiceG: "г) Белая гвардия", answer: 2))
+        list1.append(QuestionBook(questionText: "Кем по профессии был А.П. Чехов?", choiceA: "а) Учитель", choiceB: "б) Бакалейщик", choiceC: "в) Юрист", choiceG: "г) Врач", answer: 4))
+        list1.append(QuestionBook(questionText: "Назовите автора трагедии \"Ариадна\"?", choiceA: "а) А.Ахматова", choiceB: "б) К.Бальмонт", choiceC: "в) М.Цветаева", choiceG: "г) Б.Пастернак", answer: 3))
+        list1.append(QuestionBook(questionText: "Какой исторический персонаж запечатлен в \"Капитанская дочка\" А.С.Пушкина?", choiceA: "а) Емельян Пугачев", choiceB: "б) Борис Годунов", choiceC: "в) Ермак", choiceG: "г) Степан Разин", answer: 1))
+        list1.append(QuestionBook(questionText: "Как звали девушку, в которую был влюблен главный герой романа А.С.Пушкин \"Дубровский\"?", choiceA: "а) Маша Гринёва ", choiceB: "б) Маша Троекурова", choiceC: "в) Софья Мармеладова", choiceG: "г) Татьяна Ларина", answer: 2))
+        
     
     }
 }

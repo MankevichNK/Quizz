@@ -70,9 +70,9 @@
 			children = (
 				597C15A624845BA600C712E0 /* AppDelegate.swift */,
 				597C15A824845BA600C712E0 /* SceneDelegate.swift */,
+				597C15C82487BCC300C712E0 /* New Group */,
 				597C15C0248724EA00C712E0 /* Cosmos */,
 				597C15BE2486F39100C712E0 /* QustionBank.swift */,
-				597C15C52487B8F600C712E0 /* QustionBook.swift */,
 				597C15BA24855C1500C712E0 /* CosmosViewController.swift */,
 				597C15C32487AB0800C712E0 /* BookViewController.swift */,
 				597C15AA24845BA600C712E0 /* ViewController.swift */,
@@ -91,6 +91,14 @@
 				597C15BC2486F17C00C712E0 /* QuestionCosmos.swift */,
 			);
 			path = Cosmos;
+			sourceTree = "<group>";
+		};
+		597C15C82487BCC300C712E0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				597C15C52487B8F600C712E0 /* QustionBook.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
