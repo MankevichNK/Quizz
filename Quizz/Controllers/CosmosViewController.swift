@@ -31,20 +31,19 @@ class CosmosViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        timerr()
         updateQustion()
         updateUI()
         logo.layer.cornerRadius = 40
     }
-    func timerr(){
-        progressIncrement = 1.0/duration
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.showProgress), userInfo: nil, repeats: true)
-    }
-    @objc func showProgress(){
-        if(progressCounter > 1.0){timer.invalidate()}
-        progressView.progress = progressCounter
-        progressCounter = progressCounter + progressIncrement
-    }
+//    func timerr(){
+//        progressIncrement = 1.0/duration
+//        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.showProgress), userInfo: nil, repeats: true)
+//    }
+//    @objc func showProgress(){
+//        if(progressCounter > 1.0){timer.invalidate()}
+//        progressView.progress = progressCounter
+//        progressCounter = progressCounter + progressIncrement
+//    }
     @IBAction func menuButton(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }

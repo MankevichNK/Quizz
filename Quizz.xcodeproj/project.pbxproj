@@ -19,6 +19,10 @@
 		597C15C22487AA7E00C712E0 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15C12487AA7E00C712E0 /* Helpers.swift */; };
 		597C15C42487AB0800C712E0 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15C32487AB0800C712E0 /* BookViewController.swift */; };
 		597C15C62487B8F600C712E0 /* QustionBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15C52487B8F600C712E0 /* QustionBook.swift */; };
+		597C15CA2487D84600C712E0 /* GeografhyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15C92487D84600C712E0 /* GeografhyViewController.swift */; };
+		597C15CC2487E36600C712E0 /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15CB2487E36600C712E0 /* ScienceViewController.swift */; };
+		597C15CE2487E45500C712E0 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15CD2487E45500C712E0 /* MusicViewController.swift */; };
+		597C15D02487E69400C712E0 /* SportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15CF2487E69400C712E0 /* SportViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		597C15C12487AA7E00C712E0 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		597C15C32487AB0800C712E0 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		597C15C52487B8F600C712E0 /* QustionBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QustionBook.swift; sourceTree = "<group>"; };
+		597C15C92487D84600C712E0 /* GeografhyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeografhyViewController.swift; sourceTree = "<group>"; };
+		597C15CB2487E36600C712E0 /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
+		597C15CD2487E45500C712E0 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		597C15CF2487E69400C712E0 /* SportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +80,10 @@
 				597C15A824845BA600C712E0 /* SceneDelegate.swift */,
 				597C15C82487BCC300C712E0 /* New Group */,
 				597C15C0248724EA00C712E0 /* Cosmos */,
+				597C15D12487E6D400C712E0 /* Controllers */,
 				597C15BE2486F39100C712E0 /* QustionBank.swift */,
-				597C15BA24855C1500C712E0 /* CosmosViewController.swift */,
-				597C15C32487AB0800C712E0 /* BookViewController.swift */,
-				597C15AA24845BA600C712E0 /* ViewController.swift */,
 				597C15C12487AA7E00C712E0 /* Helpers.swift */,
+				597C15AA24845BA600C712E0 /* ViewController.swift */,
 				597C15AC24845BA600C712E0 /* Main.storyboard */,
 				597C15AF24845BAB00C712E0 /* Assets.xcassets */,
 				597C15B124845BAB00C712E0 /* LaunchScreen.storyboard */,
@@ -99,6 +106,19 @@
 				597C15C52487B8F600C712E0 /* QustionBook.swift */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		597C15D12487E6D400C712E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				597C15CF2487E69400C712E0 /* SportViewController.swift */,
+				597C15CD2487E45500C712E0 /* MusicViewController.swift */,
+				597C15CB2487E36600C712E0 /* ScienceViewController.swift */,
+				597C15C92487D84600C712E0 /* GeografhyViewController.swift */,
+				597C15C32487AB0800C712E0 /* BookViewController.swift */,
+				597C15BA24855C1500C712E0 /* CosmosViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,15 +192,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597C15CE2487E45500C712E0 /* MusicViewController.swift in Sources */,
 				597C15BD2486F17C00C712E0 /* QuestionCosmos.swift in Sources */,
 				597C15C22487AA7E00C712E0 /* Helpers.swift in Sources */,
 				597C15BF2486F39100C712E0 /* QustionBank.swift in Sources */,
 				597C15C62487B8F600C712E0 /* QustionBook.swift in Sources */,
 				597C15BB24855C1500C712E0 /* CosmosViewController.swift in Sources */,
 				597C15AB24845BA600C712E0 /* ViewController.swift in Sources */,
+				597C15CC2487E36600C712E0 /* ScienceViewController.swift in Sources */,
 				597C15C42487AB0800C712E0 /* BookViewController.swift in Sources */,
+				597C15CA2487D84600C712E0 /* GeografhyViewController.swift in Sources */,
 				597C15A724845BA600C712E0 /* AppDelegate.swift in Sources */,
 				597C15A924845BA600C712E0 /* SceneDelegate.swift in Sources */,
+				597C15D02487E69400C712E0 /* SportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

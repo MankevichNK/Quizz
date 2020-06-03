@@ -37,6 +37,28 @@ class ViewController: UIViewController {
         createBookViewController.modalPresentationStyle = .fullScreen
         present(createBookViewController, animated: true, completion: nil)
     }
+    
+    @IBAction func geografhyButton(_ sender: Any) {
+        guard let createViewController = GeografhyViewController.createFromMainStoryboard() else { return }
+               createViewController.modalPresentationStyle = .fullScreen
+               present(createViewController, animated: true, completion: nil)
+    }
+    
+    @IBAction func scienceButton(_ sender: Any) {
+        guard let createViewController = ScienceViewController.createFromMainStoryboard() else { return }
+        createViewController.modalPresentationStyle = .fullScreen
+        present(createViewController, animated: true, completion: nil)
+    }
+    @IBAction func musicButton(_ sender: Any) {
+        guard let createViewController = MusicViewController.createFromMainStoryboard() else { return }
+        createViewController.modalPresentationStyle = .fullScreen
+        present(createViewController, animated: true, completion: nil)
+    }
+    @IBAction func sportButton(_ sender: Any) {
+        guard let createViewController = SportViewController.createFromMainStoryboard() else { return }
+        createViewController.modalPresentationStyle = .fullScreen
+        present(createViewController, animated: true, completion: nil)
+    }
     func showCosmos(){
         let cosmos = getCosmosVC()
         cosmos.modalPresentationStyle = .fullScreen
