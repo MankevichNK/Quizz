@@ -13,6 +13,11 @@
 		597C15AE24845BA600C712E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597C15AC24845BA600C712E0 /* Main.storyboard */; };
 		597C15B024845BAB00C712E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597C15AF24845BAB00C712E0 /* Assets.xcassets */; };
 		597C15B324845BAB00C712E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597C15B124845BAB00C712E0 /* LaunchScreen.storyboard */; };
+		597C15BB24855C1500C712E0 /* CosmosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15BA24855C1500C712E0 /* CosmosViewController.swift */; };
+		597C15BD2486F17C00C712E0 /* QuestionCosmos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15BC2486F17C00C712E0 /* QuestionCosmos.swift */; };
+		597C15BF2486F39100C712E0 /* QustionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15BE2486F39100C712E0 /* QustionBank.swift */; };
+		597C15C22487AA7E00C712E0 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15C12487AA7E00C712E0 /* Helpers.swift */; };
+		597C15C42487AB0800C712E0 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15C32487AB0800C712E0 /* BookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		597C15AF24845BAB00C712E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		597C15B224845BAB00C712E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		597C15B424845BAB00C712E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		597C15BA24855C1500C712E0 /* CosmosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosViewController.swift; sourceTree = "<group>"; };
+		597C15BC2486F17C00C712E0 /* QuestionCosmos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCosmos.swift; sourceTree = "<group>"; };
+		597C15BE2486F39100C712E0 /* QustionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QustionBank.swift; sourceTree = "<group>"; };
+		597C15C12487AA7E00C712E0 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		597C15C32487AB0800C712E0 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,26 @@
 			children = (
 				597C15A624845BA600C712E0 /* AppDelegate.swift */,
 				597C15A824845BA600C712E0 /* SceneDelegate.swift */,
+				597C15C0248724EA00C712E0 /* Cosmos */,
+				597C15BE2486F39100C712E0 /* QustionBank.swift */,
+				597C15BA24855C1500C712E0 /* CosmosViewController.swift */,
+				597C15C32487AB0800C712E0 /* BookViewController.swift */,
 				597C15AA24845BA600C712E0 /* ViewController.swift */,
+				597C15C12487AA7E00C712E0 /* Helpers.swift */,
 				597C15AC24845BA600C712E0 /* Main.storyboard */,
 				597C15AF24845BAB00C712E0 /* Assets.xcassets */,
 				597C15B124845BAB00C712E0 /* LaunchScreen.storyboard */,
 				597C15B424845BAB00C712E0 /* Info.plist */,
 			);
 			path = Quizz;
+			sourceTree = "<group>";
+		};
+		597C15C0248724EA00C712E0 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				597C15BC2486F17C00C712E0 /* QuestionCosmos.swift */,
+			);
+			path = Cosmos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597C15BD2486F17C00C712E0 /* QuestionCosmos.swift in Sources */,
+				597C15C22487AA7E00C712E0 /* Helpers.swift in Sources */,
+				597C15BF2486F39100C712E0 /* QustionBank.swift in Sources */,
+				597C15BB24855C1500C712E0 /* CosmosViewController.swift in Sources */,
 				597C15AB24845BA600C712E0 /* ViewController.swift in Sources */,
+				597C15C42487AB0800C712E0 /* BookViewController.swift in Sources */,
 				597C15A724845BA600C712E0 /* AppDelegate.swift in Sources */,
 				597C15A924845BA600C712E0 /* SceneDelegate.swift in Sources */,
 			);
