@@ -10,6 +10,7 @@ import Foundation
 
 class QustionBank{
     var list = [QustionCosmos]()
+    var list1 = [QuestionBook]()
     
     init (){
         list.append(QustionCosmos(questionText: "Первый космонавт вышедший в открытый космос?", choiceA: "а) Алексей Леонов", choiceB: "б) Юрий Гагарин", choiceC: "в) Нил Армстронг", choiceG: "г) Валентина Терешкова", answer: 1))
@@ -22,5 +23,7 @@ class QustionBank{
         list.append(QustionCosmos(questionText: "Сколько на Уране длится одна ночь?", choiceA: "а) 12 часов", choiceB: "б) 21 год", choiceC: "в) 1 год", choiceG: "г) 1 час", answer: 2))
         list.append(QustionCosmos(questionText: "Какое первое млекопитающее, побывавшее в космосе?", choiceA: "а) Крыса", choiceB: "б) Кошка", choiceC: "в) Собака", choiceG: "г) Черепаха", answer: 3))
         list.append(QustionCosmos(questionText: "Сколько длятся одни Земные сутки на Венере?", choiceA: "а) 245 дней", choiceB: "б) 1 час", choiceC: "в) 30 дней", choiceG: "г) 24 часа", answer: 1))
+         list1.append(QuestionBook(questionText: "Как зовут?", choiceA: "а) 245 дней", choiceB: "б) 1 час", choiceC: "в) 30 дней", choiceG: "г) 24 часа", answer: 1))
+    
     }
 }

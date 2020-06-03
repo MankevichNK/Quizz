@@ -596,6 +596,9 @@
                                         <state key="normal" title="а)   Юпитер">
                                             <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answedPressed:" destination="kke-zf-oyU" eventType="touchUpInside" id="3oF-8R-uAd"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDS-5P-KBh">
                                         <rect key="frame" x="52" y="423" width="322" height="30"/>
@@ -604,6 +607,9 @@
                                         <state key="normal" title="б)   Сатурн">
                                             <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answedPressed:" destination="kke-zf-oyU" eventType="touchUpInside" id="cEV-XN-H2c"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3i5-7M-gMd">
                                         <rect key="frame" x="52" y="475" width="322" height="30"/>
@@ -612,6 +618,9 @@
                                         <state key="normal" title="в)   Меркурий">
                                             <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answedPressed:" destination="kke-zf-oyU" eventType="touchUpInside" id="ypu-yM-UnO"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0c-JN-MaO">
                                         <rect key="frame" x="52" y="528" width="322" height="30"/>
@@ -620,6 +629,9 @@
                                         <state key="normal" title="г)   Земля">
                                             <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answedPressed:" destination="kke-zf-oyU" eventType="touchUpInside" id="2G4-CU-kma"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeP-uG-WX2">
                                         <rect key="frame" x="77" y="588" width="220" height="55"/>
@@ -664,6 +676,18 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HOR-Sy-7cN"/>
                     </view>
+                    <connections>
+                        <outlet property="labelVerno" destination="VeP-uG-WX2" id="d2k-KO-ELa"/>
+                        <outlet property="logo" destination="qzM-xz-hGS" id="hik-Af-0ji"/>
+                        <outlet property="optionA" destination="gyx-m4-fVi" id="bKt-H0-1o3"/>
+                        <outlet property="optionB" destination="eDS-5P-KBh" id="VW0-8a-Z4M"/>
+                        <outlet property="optionC" destination="3i5-7M-gMd" id="5Ct-h4-mYz"/>
+                        <outlet property="optionG" destination="z0c-JN-MaO" id="2jy-kL-S8Q"/>
+                        <outlet property="progressView" destination="mB2-gS-Dby" id="FM5-aq-Qgi"/>
+                        <outlet property="questionCounter" destination="IRH-3A-tsl" id="uxY-5A-Uc4"/>
+                        <outlet property="qustionLabel" destination="aln-vf-XCg" id="94r-lu-JQQ"/>
+                        <outlet property="scoreLabel" destination="QT8-N5-Cgr" id="FJg-fK-tRA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LuY-aL-ZgM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
