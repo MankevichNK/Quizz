@@ -10,10 +10,8 @@ import UIKit
 
 class CosmosViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
-    @IBOutlet weak var labelVerno: UILabel!
     @IBOutlet weak var logo: UIView!
     @IBOutlet weak var questionCounter: UILabel!
-    @IBOutlet weak var progressView: UIProgressView!
     @IBOutlet weak var qustionLabel: UILabel!
     //Question outlet button
     @IBOutlet weak var optionA: UIButton!
@@ -50,13 +48,14 @@ class CosmosViewController: UIViewController {
     
     @IBAction func answerPressed(_ sender: UIButton) {
             if sender.tag == self.selectAnswer {
+                 ProgressHUD.showSuccess("Правильно!")
             //            labelVerno.isHidden = false
-                            self.labelVerno.text = "Верно!"
+//                            self.labelVerno.text = "Верно!"
                             self.score += 1
                        
                     } else{
-                        
-                self.labelVerno.text = "Неверно!"
+                ProgressHUD.showError("Неправильно!")
+//                self.labelVerno.text = "Неверно!"
         }
         
         qustionNumber += 1
@@ -74,15 +73,16 @@ class CosmosViewController: UIViewController {
             selectAnswer = allQustion.list[qustionNumber].correctAnswer
             
         } else {
-            let alert = UIAlertController(title: "Класс!", message: "Ты закончил данную категорию! Хочешь повторить?", preferredStyle: .alert)
+            qustionLabel.text = "Конец категории"
+            let alert = UIAlertController(title: "Класс!", message: "ВЫ НАБРАЛИ: \(score) баллов.Вы закончили данную категорию! Хотите повторить?", preferredStyle: .alert)
             let restarAction = UIAlertAction(title: "Перезапустить", style: .default, handler: { action in
                 self.restartQuiz()})
             alert.addAction(restarAction)
+            alert.addAction(UIAlertAction(title: "Выход", style: .cancel, handler: nil))
             present(alert, animated: true, completion: nil)
             }
         updateUI()
         }
-    
     func updateUI(){
         scoreLabel.text = "Количество баллов: \(score)"
         if qustionNumber <= 8 {

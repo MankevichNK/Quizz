@@ -27,7 +27,15 @@ class ViewController: UIViewController {
         view6.layer.cornerRadius = 10
         // Do any additional setup after loading the view.
     }
-
+   enum QuizType{
+          case cosmos
+          case book
+          case geography
+          case science
+          case music
+          case sport
+      }
+    
     @IBAction func cosmosButton(_ sender: Any) {
         showCosmos()
     }
