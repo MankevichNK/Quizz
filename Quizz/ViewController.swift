@@ -27,54 +27,69 @@ class ViewController: UIViewController {
         view6.layer.cornerRadius = 10
         // Do any additional setup after loading the view.
     }
-   enum QuizType{
-          case cosmos
-          case book
-          case geography
-          case science
-          case music
-          case sport
-      }
     
     @IBAction func cosmosButton(_ sender: Any) {
-        showCosmos()
+        guard let createViewController = SecondViewController.createFromMainStoryboard() else { return }
+        createViewController.modalPresentationStyle = .fullScreen
+        createViewController.list = QustionBank.init().cosmosList
+        createViewController.quizIcon = UIImage(named: "cosmos")
+        createViewController.backgroundColor = UIColor(red: 0, green: 0.33, blue: 0.58, alpha: 1.0)
+        createViewController.backIcon = UIColor(red: 0, green: 0.33, blue: 0.58, alpha: 1.0)
+        createViewController.name = "Космос"
+        present(createViewController, animated: true, completion: nil)
     }
     
     @IBAction func booksButton(_ sender: Any) {
-       guard let createBookViewController = BookViewController.createFromMainStoryboard() else { return }
-        createBookViewController.modalPresentationStyle = .fullScreen
-        present(createBookViewController, animated: true, completion: nil)
+      guard let createViewController = SecondViewController.createFromMainStoryboard() else { return }
+       createViewController.modalPresentationStyle = .fullScreen
+       createViewController.list = QustionBank.init().bookList
+        createViewController.quizIcon = UIImage(named: "book")
+        createViewController.backgroundColor = UIColor(red: 0.95, green: 0.81, blue: 0.51, alpha: 1.0)
+        createViewController.backIcon = UIColor(red: 0.95, green: 0.81, blue: 0.51, alpha: 1.0)
+        createViewController.name = "Книги"
+       present(createViewController, animated: true, completion: nil)
     }
     
     @IBAction func geografhyButton(_ sender: Any) {
-        guard let createViewController = GeografhyViewController.createFromMainStoryboard() else { return }
+        guard let createViewController = SecondViewController.createFromMainStoryboard() else { return }
                createViewController.modalPresentationStyle = .fullScreen
+        createViewController.list = QustionBank.init().geograhpyList
+        createViewController.quizIcon = UIImage(named: "geography")
+        createViewController.backgroundColor = UIColor(red: 0.95, green: 0.56, blue: 0.51, alpha: 1.0)
+        createViewController.backIcon = UIColor(red: 0.95, green: 0.56, blue: 0.51, alpha: 1.0)
+        createViewController.name = "География"
                present(createViewController, animated: true, completion: nil)
     }
     
     @IBAction func scienceButton(_ sender: Any) {
-        guard let createViewController = ScienceViewController.createFromMainStoryboard() else { return }
+       guard let createViewController = SecondViewController.createFromMainStoryboard() else { return }
         createViewController.modalPresentationStyle = .fullScreen
+        createViewController.list = QustionBank.init().scienceList
+        createViewController.quizIcon = UIImage(named: "science")
+        createViewController.backgroundColor = UIColor(red: 0.43, green: 0.86, blue: 0.44, alpha: 1.0)
+        createViewController.backIcon = UIColor(red: 0.43, green: 0.86, blue: 0.44, alpha: 1.0)
+        createViewController.name = "Наука"
         present(createViewController, animated: true, completion: nil)
     }
     @IBAction func musicButton(_ sender: Any) {
-        guard let createViewController = MusicViewController.createFromMainStoryboard() else { return }
+      guard let createViewController = SecondViewController.createFromMainStoryboard() else { return }
         createViewController.modalPresentationStyle = .fullScreen
+        createViewController.list = QustionBank.init().musicList
+        createViewController.quizIcon = UIImage(named: "music")
+        createViewController.backgroundColor = UIColor(red: 0.89, green: 0.66, blue: 0.31, alpha: 1.0)
+        createViewController.backIcon = UIColor(red: 0.89, green: 0.66, blue: 0.31, alpha: 1.0)
+        createViewController.name = "Музыка"
         present(createViewController, animated: true, completion: nil)
     }
     @IBAction func sportButton(_ sender: Any) {
-        guard let createViewController = SportViewController.createFromMainStoryboard() else { return }
+       guard let createViewController = SecondViewController.createFromMainStoryboard() else { return }
         createViewController.modalPresentationStyle = .fullScreen
+        createViewController.list = QustionBank.init().sportList
+        createViewController.quizIcon = UIImage(named: "sport")
+        createViewController.backgroundColor = UIColor(red: 0.36, green: 0.85, blue: 0.79, alpha: 1.0)
+        createViewController.backIcon = UIColor(red: 0.36, green: 0.85, blue: 0.79, alpha: 1.0)
+        createViewController.name = "Спорт"
         present(createViewController, animated: true, completion: nil)
-    }
-    func showCosmos(){
-        let cosmos = getCosmosVC()
-        cosmos.modalPresentationStyle = .fullScreen
-        present(cosmos, animated: true, completion: nil)
-    }
-    func getCosmosVC() -> CosmosViewController {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        return storyboard.instantiateViewController(identifier: "CosmosViewController") as! CosmosViewController
     }
 }
 

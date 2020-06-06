@@ -8,9 +8,8 @@
 
 import UIKit
 
-class GeografhyViewController: UIViewController {
+class SecondViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
-    @IBOutlet weak var labelVerno: UILabel!
     @IBOutlet weak var logo: UIView!
     @IBOutlet weak var questionCounter: UILabel!
     @IBOutlet weak var qustionLabel: UILabel!
@@ -18,16 +17,30 @@ class GeografhyViewController: UIViewController {
     @IBOutlet weak var optionB: UIButton!
     @IBOutlet weak var optionC: UIButton!
     @IBOutlet weak var optionG: UIButton!
+    @IBOutlet weak var icon: UIImageView!
+      @IBOutlet weak var nameLabel: UILabel!
     let allQustion = QustionBank()
     var qustionNumber: Int = 0
     var selectAnswer: Int = 0
     var score: Int = 0
     var answedPressed: Bool = false
+    //Dynamic
+    var list: [Qustion] = []
+    var backgroundColor: UIColor?
+    var quizIcon: UIImage?
+    var backIcon: UIColor?
+    var titleText: String?
+    var name: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         logo.layer.cornerRadius = 40
         updateQustion()
         updateUI()
+        icon.image = quizIcon
+        logo.backgroundColor = backIcon
+        self.view.backgroundColor = backgroundColor
+        nameLabel.text = name
     }
     @IBAction func backButton(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
@@ -47,13 +60,13 @@ class GeografhyViewController: UIViewController {
                updateQustion()
        }
        func updateQustion() {
-               if qustionNumber <= allQustion.list2.count - 1 {
-                   qustionLabel.text = allQustion.list2[qustionNumber].questionLabel
-                   optionA.setTitle(allQustion.list2[qustionNumber].optionA, for: .normal)
-                   optionB.setTitle(allQustion.list2[qustionNumber].optionB, for: .normal)
-                   optionC.setTitle(allQustion.list2[qustionNumber].optionC, for: .normal)
-                   optionG.setTitle(allQustion.list2[qustionNumber].optionG, for: .normal)
-                   selectAnswer = allQustion.list2[qustionNumber].correctAnswer
+               if qustionNumber <= list.count - 1 {
+                   qustionLabel.text = list[qustionNumber].questionLabel
+                optionA.setTitle(list[qustionNumber].optionA, for: .normal)
+                   optionB.setTitle(list[qustionNumber].optionB, for: .normal)
+                   optionC.setTitle(list[qustionNumber].optionC, for: .normal)
+                   optionG.setTitle(list[qustionNumber].optionG, for: .normal)
+                   selectAnswer = list[qustionNumber].correctAnswer
                    
                } else {
                 qustionLabel.text = "Конец категории"

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class QustionCosmos {
+class Qustion {
     let questionLabel: String
     let optionA: String
     let optionB: String

@@ -27,6 +27,7 @@ class CosmosViewController: UIViewController {
     let duration:Float = 5.0
     var progressIncrement:Float = 0
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateQustion()

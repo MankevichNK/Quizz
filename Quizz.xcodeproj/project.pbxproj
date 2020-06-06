@@ -13,22 +13,12 @@
 		597C15AE24845BA600C712E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597C15AC24845BA600C712E0 /* Main.storyboard */; };
 		597C15B024845BAB00C712E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597C15AF24845BAB00C712E0 /* Assets.xcassets */; };
 		597C15B324845BAB00C712E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597C15B124845BAB00C712E0 /* LaunchScreen.storyboard */; };
-		597C15BB24855C1500C712E0 /* CosmosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15BA24855C1500C712E0 /* CosmosViewController.swift */; };
-		597C15BD2486F17C00C712E0 /* QuestionCosmos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15BC2486F17C00C712E0 /* QuestionCosmos.swift */; };
+		597C15BD2486F17C00C712E0 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15BC2486F17C00C712E0 /* Question.swift */; };
 		597C15BF2486F39100C712E0 /* QustionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15BE2486F39100C712E0 /* QustionBank.swift */; };
 		597C15C22487AA7E00C712E0 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15C12487AA7E00C712E0 /* Helpers.swift */; };
-		597C15C42487AB0800C712E0 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15C32487AB0800C712E0 /* BookViewController.swift */; };
-		597C15C62487B8F600C712E0 /* QustionBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15C52487B8F600C712E0 /* QustionBook.swift */; };
-		597C15CA2487D84600C712E0 /* GeografhyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15C92487D84600C712E0 /* GeografhyViewController.swift */; };
-		597C15CC2487E36600C712E0 /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15CB2487E36600C712E0 /* ScienceViewController.swift */; };
-		597C15CE2487E45500C712E0 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15CD2487E45500C712E0 /* MusicViewController.swift */; };
-		597C15D02487E69400C712E0 /* SportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15CF2487E69400C712E0 /* SportViewController.swift */; };
-		5999B40F2488478200F7B67C /* QuestionGeography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999B40E2488478200F7B67C /* QuestionGeography.swift */; };
-		5999B41124884DFE00F7B67C /* QustionScience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999B41024884DFE00F7B67C /* QustionScience.swift */; };
-		5999B413248919C700F7B67C /* QustionMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999B412248919C700F7B67C /* QustionMusic.swift */; };
+		597C15CA2487D84600C712E0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597C15C92487D84600C712E0 /* SecondViewController.swift */; };
 		5999B4182489461200F7B67C /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5999B4162489461100F7B67C /* ProgressHUD.m */; };
 		5999B4192489461200F7B67C /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5999B4172489461100F7B67C /* ProgressHUD.bundle */; };
-		5999B41B24894ACF00F7B67C /* QustionSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999B41A24894ACF00F7B67C /* QustionSport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,24 +30,14 @@
 		597C15AF24845BAB00C712E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		597C15B224845BAB00C712E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		597C15B424845BAB00C712E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		597C15BA24855C1500C712E0 /* CosmosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosViewController.swift; sourceTree = "<group>"; };
-		597C15BC2486F17C00C712E0 /* QuestionCosmos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCosmos.swift; sourceTree = "<group>"; };
+		597C15BC2486F17C00C712E0 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		597C15BE2486F39100C712E0 /* QustionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QustionBank.swift; sourceTree = "<group>"; };
 		597C15C12487AA7E00C712E0 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		597C15C32487AB0800C712E0 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
-		597C15C52487B8F600C712E0 /* QustionBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QustionBook.swift; sourceTree = "<group>"; };
-		597C15C92487D84600C712E0 /* GeografhyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeografhyViewController.swift; sourceTree = "<group>"; };
-		597C15CB2487E36600C712E0 /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
-		597C15CD2487E45500C712E0 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
-		597C15CF2487E69400C712E0 /* SportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportViewController.swift; sourceTree = "<group>"; };
-		5999B40E2488478200F7B67C /* QuestionGeography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGeography.swift; sourceTree = "<group>"; };
-		5999B41024884DFE00F7B67C /* QustionScience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QustionScience.swift; sourceTree = "<group>"; };
-		5999B412248919C700F7B67C /* QustionMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QustionMusic.swift; sourceTree = "<group>"; };
+		597C15C92487D84600C712E0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5999B4142489461000F7B67C /* Quizz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizz-Bridging-Header.h"; sourceTree = "<group>"; };
 		5999B4152489461100F7B67C /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		5999B4162489461100F7B67C /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		5999B4172489461100F7B67C /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
-		5999B41A24894ACF00F7B67C /* QustionSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QustionSport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,18 +72,12 @@
 			children = (
 				597C15A624845BA600C712E0 /* AppDelegate.swift */,
 				597C15A824845BA600C712E0 /* SceneDelegate.swift */,
-				597C15BC2486F17C00C712E0 /* QuestionCosmos.swift */,
-				597C15C52487B8F600C712E0 /* QustionBook.swift */,
-				5999B40E2488478200F7B67C /* QuestionGeography.swift */,
-				5999B41024884DFE00F7B67C /* QustionScience.swift */,
-				5999B412248919C700F7B67C /* QustionMusic.swift */,
-				5999B41A24894ACF00F7B67C /* QustionSport.swift */,
+				597C15BC2486F17C00C712E0 /* Question.swift */,
 				597C15BE2486F39100C712E0 /* QustionBank.swift */,
-				597C15C0248724EA00C712E0 /* Cosmos */,
-				597C15D12487E6D400C712E0 /* Controllers */,
-				597C15C12487AA7E00C712E0 /* Helpers.swift */,
+				597C15C92487D84600C712E0 /* SecondViewController.swift */,
 				597C15AA24845BA600C712E0 /* ViewController.swift */,
 				597C15AC24845BA600C712E0 /* Main.storyboard */,
+				597C15C12487AA7E00C712E0 /* Helpers.swift */,
 				597C15AF24845BAB00C712E0 /* Assets.xcassets */,
 				5999B4172489461100F7B67C /* ProgressHUD.bundle */,
 				5999B4152489461100F7B67C /* ProgressHUD.h */,
@@ -113,26 +87,6 @@
 				5999B4142489461000F7B67C /* Quizz-Bridging-Header.h */,
 			);
 			path = Quizz;
-			sourceTree = "<group>";
-		};
-		597C15C0248724EA00C712E0 /* Cosmos */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cosmos;
-			sourceTree = "<group>";
-		};
-		597C15D12487E6D400C712E0 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				597C15CF2487E69400C712E0 /* SportViewController.swift */,
-				597C15CD2487E45500C712E0 /* MusicViewController.swift */,
-				597C15CB2487E36600C712E0 /* ScienceViewController.swift */,
-				597C15C92487D84600C712E0 /* GeografhyViewController.swift */,
-				597C15C32487AB0800C712E0 /* BookViewController.swift */,
-				597C15BA24855C1500C712E0 /* CosmosViewController.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,24 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5999B40F2488478200F7B67C /* QuestionGeography.swift in Sources */,
-				5999B413248919C700F7B67C /* QustionMusic.swift in Sources */,
-				597C15CE2487E45500C712E0 /* MusicViewController.swift in Sources */,
-				597C15BD2486F17C00C712E0 /* QuestionCosmos.swift in Sources */,
-				5999B41B24894ACF00F7B67C /* QustionSport.swift in Sources */,
-				5999B41124884DFE00F7B67C /* QustionScience.swift in Sources */,
+				597C15BD2486F17C00C712E0 /* Question.swift in Sources */,
 				5999B4182489461200F7B67C /* ProgressHUD.m in Sources */,
 				597C15C22487AA7E00C712E0 /* Helpers.swift in Sources */,
 				597C15BF2486F39100C712E0 /* QustionBank.swift in Sources */,
-				597C15C62487B8F600C712E0 /* QustionBook.swift in Sources */,
-				597C15BB24855C1500C712E0 /* CosmosViewController.swift in Sources */,
 				597C15AB24845BA600C712E0 /* ViewController.swift in Sources */,
-				597C15CC2487E36600C712E0 /* ScienceViewController.swift in Sources */,
-				597C15C42487AB0800C712E0 /* BookViewController.swift in Sources */,
-				597C15CA2487D84600C712E0 /* GeografhyViewController.swift in Sources */,
+				597C15CA2487D84600C712E0 /* SecondViewController.swift in Sources */,
 				597C15A724845BA600C712E0 /* AppDelegate.swift in Sources */,
 				597C15A924845BA600C712E0 /* SceneDelegate.swift in Sources */,
-				597C15D02487E69400C712E0 /* SportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
